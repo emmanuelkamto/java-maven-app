@@ -32,7 +32,7 @@ pipeline {
         stage('deploy') {
             steps {
                 script {
-                    gv.buildImage()
+                    gv.deployApp()
                 }
             }
         }
